@@ -1,0 +1,380 @@
+/* 第三页 */
+.changeContent3{
+    width:750px;
+    height:auto;
+    margin-top: 174px;
+}
+.changeContent3 .pic-main{
+    width:750px;
+    height:auto
+}
+.changeContent3 .secTxt1{
+    width:750px;
+    height:184px;
+
+}
+.changeContent3 .secTxt1 div{
+    text-align: center
+}
+.changeContent3 .secTxt1 .txt1{
+    color:#333333;
+    font-family:MicrosoftYaHei-Bold;
+    font-size: 30px;
+    font-weight: 600
+}
+.changeContent3 .secTxt1 .txt2{
+    color:#666666;
+    font-family:MicrosoftYaHei;
+    font-size: 20px
+}
+.changeContent3 .search_conten_box{
+    position: relative;
+    height: 700px;
+    background: url("../image/g3-bgSearch.png") center center no-repeat;
+    background-size: cover;
+}
+.changeContent3 .search-top{
+  position: absolute;
+  width:690px;
+  height:64px;
+  top:60px;
+  left: 50%;
+  margin-left:-345px;
+  transform: translate-X(-50%);
+}
+
+.changeContent3  .search-icon{
+    width:68px;
+    height:64px;
+    padding-top:16px;
+    padding-left:15px;
+    background-color: rgba(155, 155, 155, 0.3);
+    display:inline-block;
+    float:left
+}
+.changeContent3  .search-icon>img{
+    width:30px;
+    height:32px;
+    vertical-align: middle
+}
+.changeContent3 .search-top input{
+    width:440px;
+    height:64px;
+    background-color: rgba(155, 155, 155, 0.3);
+    font-size: 24px;
+    color:white
+}
+.changeContent3 .search-top span{
+    display: inline-block;
+    width:180px;
+    height:64px;
+    background-color:#FFA200; 
+    font-family:MicrosoftYaHei-Bold;
+    font-weight: 600;
+    text-align: center;
+    line-height: 64px;
+    font-size: 26px;
+    color:white
+}
+    .changeContent3 .search-top input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: white;
+        
+    }
+    .changeContent3 .search-top input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+       color:    white;
+    }
+    .changeContent3 .search-top input::-moz-placeholder { /* Mozilla Firefox 19+ */
+       color:    white
+    }
+    .changeContent3 .search-top input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color:    white
+    }
+    /* banner  */
+.changeContent3 #search-bottom-banner{
+    width: 700px;
+    height: 450px;
+    top:182px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 2;
+    left: 50%;
+     margin-left:-350px;
+    transform: translate-X(-50%);
+}
+.changeContent3 .hasNo{
+    width: 700px;
+    height: 430px;
+    background: white;
+    position: relative;
+    top:-275px;
+    z-index: 5;
+    left: 50%;
+    margin-left:-350px;
+   transform: translate-X(-50%);
+}
+.changeContent3 .hasNo .noData{
+    position: absolute;
+   width:100%;
+   height:100%;
+   text-align: center;
+   line-height: 390px;
+    font-size: 32px;
+}
+.changeContent3 .hasNo .backIcon{
+    width:100px;
+    height:40px;
+    position: absolute;
+    line-height: 40px;
+    background-color: #ef9a07;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    top:10px;
+    right:10px;
+    color:white
+}
+.changeContent3 .has{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    top: -288px;
+    z-index: 6;
+    left: 50%;
+    background: url("../image/zsbg.png")no-repeat;
+    margin-left:-350px;
+    background-size: cover;
+   transform: translate-X(-50%);
+}
+.changeContent3 .has .img_box{
+    width: 120px;
+    height: 150px;
+    background: red;
+    position: absolute;
+    left: 133px;
+    top: 222px;
+}
+.changeContent3 .has .zs_bh{
+    position: absolute;
+    left: 165px;
+    top: 388px;
+}
+.changeContent3 .has .person_name{
+    position: absolute;
+    left: 397px;
+    top: 98px;
+}
+.changeContent3 .has .time{
+    position: absolute;
+    left: 337px;
+    top: 146px;
+    font-size: 12px;
+    transform: scale(0.76)
+}
+.changeContent3 .has .time .s_m{
+    margin-left:18px
+}
+.changeContent3 .has .time .s_d{
+    margin-left:21px
+}
+.changeContent3 .has .time .e_y{
+    margin-left:53px
+}
+.changeContent3 .has .time .e_m{
+    margin-left:27px
+}
+.changeContent3 .has .time .e_d{
+    margin-left:26px
+}
+.changeContent3 .has .project{
+    position: absolute;
+    left: 493px;
+    top: 168px;
+    font-size: 12px;
+    transform: scale(0.76)
+}
+.changeContent3 .has .send_time{
+    position: absolute;
+    left: 428px;
+    top: 388px;
+}
+.changeContent3 .has .send_time .sm{
+    margin-left:20px
+}
+.changeContent3 .has .send_time .sd{
+    margin-left:13px
+}
+
+.changeContent3 .has .hasBack{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    line-height: 40px;
+    background-color: #ef9a07;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+#search-bottom-banner img{
+    height:390px
+}
+#search-bottom-banner .swiper-pagination .swiper-pagination-bullet {
+    background: #b5b4b4;
+    opacity: 1;
+}
+
+#search-bottom-banner .swiper-pagination .swiper-pagination-bullet-active {
+    background: white;
+    border-radius: 40px;
+
+}
+#search-bottom-banner .swiper-pagination {
+    position: absolute;
+    margin: 0 auto;
+    top: 90%;
+}
+.changeContent3 .pic2{
+    width: 750px;
+    height:auto;
+}
+.changeContent3 .pic2 .addPic{
+    width:720px;
+    margin:0 auto;
+    height:auto
+}
+.sec7{
+    width:100%;
+    height: 270px;
+  
+    background-color: #f1f1f1;
+}
+.sec7 .g2-txt{
+    width:100%;
+    height:100px;
+    color: #333333;
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+   line-height: 100px;
+}
+ .sec7 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.sec7 ul li{
+    width:180px;
+    height:auto
+}
+.sec8{
+    width:750px;
+    height:auto;
+    margin-bottom:106px;
+    position: relative;
+}
+.sec8 .sp1{
+    position: absolute;
+    font-size:22px;
+    color:#ffab19;
+    padding-top:200px;
+    z-index: 2;
+    left: 529px;
+    bottom:33px
+    
+}
+/* 公共头部 */
+.all{
+    height:auto;
+    overflow: hidden;
+    position: fixed;
+    z-index: 12;
+    left:0;
+    right:0;
+    top:0
+   }
+   body{
+    font-family: FZLTDHK--GBK1-0;
+   }
+   .all>.header{
+       height:86px;
+       width:100%;
+       display: flex;
+       background: #586166
+   } 
+   .all>.header>img{
+    display: block;
+    flex:1
+   }
+   .all .g-headUL{
+       width:750px;
+       height:90px;
+       display: flex;
+       font-size: 28px;
+       color:white;
+       background:#586166;
+       line-height:88px;
+       text-align: center;
+       box-sizing: border-box;
+       justify-content: space-around
+   }
+   .all .g-headUL>li{
+      width: 122px;
+      font-size: 28px;
+      color:white;
+       text-align: center;
+       vertical-align: middle;
+       
+   }
+   .all .g-headUL>li:nth-child(3) a{
+    font-size: 28px;
+    color:white;
+    font-weight: 600;
+   }
+.all .g-headUL>li:nth-child(3) span{
+    width:30px;
+    height:4px;
+    background: white;
+    display: block;
+    margin-left: 38%;
+  
+}
+.all .g-headUL>li:first-child span{
+    width:30px;
+    height:4px;
+  
+}
+/* 底部 */
+.buttomFixed{
+    position: fixed;
+    width:750px;
+    height:106px;
+    bottom:0;
+    display: flex;
+    z-index: 8;
+}
+.buttomFixed a{
+    display:block;
+    width:50%;
+    height:106px;
+    flex: 1;
+    color:white;
+    font-size: 26px;
+    line-height: 106px;
+    text-align: center
+
+}
+.buttomFixed a img{
+    width:70px;
+    height:70px;
+    margin-bottom: 12px;
+    vertical-align: middle
+}
+.buttomFixed a:first-child{
+background: #ffa200
+}
+.buttomFixed a:last-child{
+    background: #586166
+    }

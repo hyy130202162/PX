@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://m.51kuaishe.com/weixin_peixun2/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1e6e97004d411d64c22983e1cbb9b67f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<title>添加聚奢商学院导师微信</title>
+<style>
+@charset "utf-8";
+*{padding:0;margin:0;border:0;font-family:'Microsoft YaHei',Helvetica,Arial,sans-serif}
+blockquote,body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,iframe,input,li,ol,p,pre,select,td,textarea,th,ul{font-weight:400;padding:0;margin:0;list-style:none}
+body{color: #000;background: #fff;min-width:320px;max-width:640px;margin:0 auto;font:1.2rem Microsoft Yahei;}
+fieldset,img{border:0}
+input{-webkit-appearance:none}
+em,i,ins{font-style:normal}
+li,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+button,checkbox,form,input,radio,select,textarea{vertical-align:top;border:0;-webkit-appearance:none}
+select{padding:0 5px;font-family:'Microsoft YaHei';-webkit-appearance:none}
+img{max-width:100%;vertical-align:middle}
+a{color: #000;text-decoration:none;}
+a:link,a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+html{font-size:12px;}
+.p01{font-weight:700;text-align:center;font-size:20px;padding:45px 0 20px;color:#333}
+.p01 span{color:#e70a0a}
+.p02{text-align:center}
+.p07{text-align:center;padding-top: 6px;font-size: 18px;}
+.p02 img{width:60%}
+.p05{text-align:center;padding:20px 0}
+.p06{text-align:center}
+#wxinput{border:1px solid #ccc;text-align:center;line-height:40px;height:40px;font-size:24px;font-weight:700;color:#e70a0a;display: inline-block;padding: 0 10px;}
+.copybtn{background: #e7650a;color:#fff;width: 80%;height: 50px;border-radius:5px;font-size: 26px;letter-spacing: 2px;border: 1px solid #cb5400;}
+.gowx{background:#48a636;color:#fff;width: 80%;height: 50px;border-radius:5px;font-size: 24px;display:inline-block;line-height: 50px;margin: 20px 0;border: 1px solid #248411;}
+.back{background: #f6ea68;padding:5px 10px;border: 1px solid #e7d400;border-radius: 20px;position: fixed;left: 2px;top: 2px;font-size: 14px;font-weight: bold;}
+</style>
+<script src="./weixin_peixun2/clipboard.min.js"></script></head>
+<body>
+<span class="back" id="wxback">&lt; 返回</span>
+
+<p class="p01"><span>聚奢商学院</span><span>证书和试听课问题</span>微信解答</p>
+<p class="p02"><img src="./weixin_peixun2/wx.png"></p>
+<p class="p07">添加商学院导师<strong style="color:#e70a0a">微信号</strong></p>
+<!--<p class="p07">苹果手机请长按复制</p>-->
+
+<p class="p05"><span id="wxinput" data-clipboard-text="18068844034">18068844034</span></p>
+<p class="p06"><button class="copybtn" id="cbtn" data-clipboard-text="18068844034">点击复制 <img src="./weixin_peixun2/hand.png"></button></p>
+<p class="p06"><a href="weixin://" class="gowx" id="gowxtext">复制好了 添加好友 <img src="./weixin_peixun2/jt01.png"></a></p>
+
+<script type="text/javascript">
+var urlbefore = document.referrer;
+var swturl=document.location.href;
+var po=swturl.indexOf('fromurl')+8;
+var urljq=swturl.substring(po);
+
+wxback.onclick=function(){
+	window.open('./','_self');
+}
+
+window.onload=function(){
+	var clipboard = new ClipboardJS('.copybtn');
+	var gowxtext = document.getElementById("gowxtext");
+	var cbtn = document.getElementById("cbtn");
+	var agt=navigator.userAgent.toLowerCase();
+	var is_bdapp = (agt.indexOf('baiduboxapp')!=-1);
+	var is_ucapp = (agt.indexOf('ucbrowser')!=-1);
+
+	if(is_bdapp){
+		gowxtext.innerHTML='微信需要手动打开加好友';
+	}else if(is_ucapp){
+		cbtn.onclick=function(){
+			alert("复制成功");
+		}
+	}
+	
+	clipboard.on('success', function(e) {
+		alert("复制成功");
+		e.clearSelection();
+	});
+}
+
+</script>
+
+</body></html>

@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="applicable-device" content="mobile" />
+    <meta name="viewport" content="width=750,user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" href="css_peixun2/common.css">
+    <link rel="stylesheet" href="css_peixun2/train.css">
+    <link rel="stylesheet" href="css_peixun2/swiper.min.css">
+    <script src="js_peixun2/jquery-1.10.1.min.js"></script>
+    <script src="js_peixun2/swiper.min.js"></script>
+    <script src="js_peixun2/swiper.jquery.min.js"></script>
+    <title>中检聚奢商学院-奢侈品鉴定培训权威机构</title>
+</head>
+
+<style>
+body{
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color:transparent;
+}
+
+/* 横幅banner */
+*{ -webkit-touch-callout: none;}
+body{
+    background: white
+}
+.changeContent{
+    margin-top: 6.4rem;
+    margin-bottom: 120px;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+
+#banner2 {
+    width: 692px;
+    height: 836px;
+    margin-top: 26px;
+    left: 50%;
+    padding-bottom: 26px;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    position: relative;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#banner2 .swiper-pagination{
+    bottom:0
+}
+#banner .swiper-slide {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+#banner img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#banner .swiper-pagination {
+    position: absolute;
+    margin: 0 auto;
+    top: 95%;
+}
+
+#banner .swiper-pagination .swiper-pagination-bullet {
+    background: #b5b4b4;
+    opacity: 1;
+}
+
+#banner .swiper-pagination .swiper-pagination-bullet-active {
+    background: white;
+    border-radius: 40px;
+
+}
+#banner2 .swiper-pagination .swiper-pagination-bullet {
+    background: #dedede;
+    opacity: 1;
+}
+
+#banner2 .swiper-pagination .swiper-pagination-bullet-active {
+    background: #848484;
+    border-radius: 40px;
+}
+/* 顶部弹出框 */
+        .headWx {
+        position: fixed;
+        opacity: 0;
+        top: -102px;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        width: 750px;
+        height: 136px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .headWx>a {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 100%;
+        width: 750px!important;
+    }
+
+    .headWx>a img {
+        width: 750px!important;
+        height: 136px!important;
+    }
+
+ 
+
+    .show2 {
+        -webkit-animation-name: fadeInOut;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 20s;
+    }
+
+     .headWxx {
+        position: fixed;
+        opacity: 0;
+        top: -102px;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        width: 750px;
+        height: 136px;
+        cursor:pointer; 
+        display: -webkit-box; 
+        display: -ms-flexbox; 
+        display: flex;
+    }
+
+    .headWxx>a {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        height: 100%;
+        width: 750px!important;
+    }
+
+    .headWxx>a img {
+        width: 100%;
+        height: 100%
+    }
+
+    .show22{
+        -webkit-animation-name: fadeInOut2;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-duration: 20s;
+    }
+    @-webkit-keyframes fadeInOut {
+        0% {
+            opacity: 0;
+            top: -102px
+        }
+        27.5% {
+            opacity: 0;
+            top: -102px
+        }
+       30% {
+            opacity: 1;
+            top: 0px
+        }
+
+        54% {
+            opacity: 1;
+            top: 0px
+        }
+        57% {
+            opacity: 0;
+            top: -102px
+        }
+        97% {
+            opacity: 0;
+            top: -102px
+        }
+        100% {
+            opacity: 0;
+            top: -102px
+        }
+    }
+    @keyframes fadeInOut {
+        0% {
+            opacity: 0;
+            top: -102px
+        }
+        27.5% {
+            opacity: 0;
+            top: -102px
+        }
+       30% {
+            opacity: 1;
+            top: 0px
+        }
+
+        54% {
+            opacity: 1;
+            top: 0px
+        }
+        57% {
+            opacity: 0;
+            top: -102px
+        }
+        97% {
+            opacity: 0;
+            top: -102px
+        }
+        100% {
+            opacity: 0;
+            top: -102px
+        }
+    }
+    @-webkit-keyframes fadeInOut2 {
+        0% {
+            opacity: 0;
+            top: -102px
+        }
+        74% {
+            opacity: 0;
+            top: -102px
+        }
+       
+        76.5% {
+            opacity: 1;
+            top: 0px
+        }
+        93% {
+            opacity: 1;
+            top: 0px
+        }
+        97% {
+            opacity: 0;
+            top: -102px
+        }
+        100% {
+            opacity: 0;
+            top: -102px
+        }
+    }
+    @keyframes fadeInOut2 {
+        0% {
+            opacity: 0;
+            top: -102px
+        }
+        74% {
+            opacity: 0;
+            top: -102px
+        }
+       
+        76.5% {
+            opacity: 1;
+            top: 0px
+        }
+        93% {
+            opacity: 1;
+            top: 0px
+        }
+        97% {
+            opacity: 0;
+            top: -102px
+        }
+        100% {
+            opacity: 0;
+            top: -102px
+        }
+    }
+    .cliOther>a{
+        display: block;
+        width:100%;
+    }
+</style>
+
+<body>
+    <div class="all">
+        <div class="header">
+            <a href="./tel.html"><img src="image_peixun2/train-head1.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="changeContent">
+        <div class="changeContent1 changeCon">
+            <div id="banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                            <img src="image_peixun2/banner1.jpg">
+                    </div>
+                    <!-- <div class="swiper-slide"> -->
+                        <!-- <a href="http://dut.zoosnet.net/LR/Chatpre.aspx?id=DUT82261253&lng=cn&e=banner2&r=%e5%9f%b9%e8%ae%ad%e4%b8%9a%e5%8a%a1&p=banner2"> -->
+                            <!-- <img src="image_peixun2/banner2.png"> -->
+                        <!-- </a> -->
+                    <!-- </div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="phone bbb">
+                <div class="phone-white pr">
+                    <input class="addphone bbb" type="text" placeholder="请填写手机号获取课程大纲">
+                    <div class="toming" id="toming">报名</div>
+                </div>
+            </div>
+            <div class="why-pic">
+                <img src="image_peixun2/why.png" alt="">
+            </div>
+            <div class="because after">
+                <a href="./weixin.html"><img src="image_peixun2/because.jpg" alt=""></a>
+            </div>
+            <div class="yous"><img src="image_peixun2/youShi.png" alt=""></div>
+            <div class="yous cliOther" style="margin-top:12px">
+                    <a href="./weixin.html"><img src="image_peixun2/z1.jpg" alt=""></a>
+            </div>
+            <div class="yous"> <img src="image_peixun2/cont-pic.png" alt=""></div>
+            <div id="banner2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="image_peixun2/second-p1.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image_peixun2/second-p2.jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="image_peixun2/second-p3.jpg">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+                <div class="join after">
+                    <a href="./weixin.html"><img src="image_peixun2/join.png" alt=""></a>
+                </div>
+            <!-- <div class="bottomCont after"> -->
+                <!-- <div class="n1"> -->
+                    <!-- <span>姓名：</span> -->
+                    <!-- <input type="text" id="name"> -->
+                <!-- </div> -->
+                <!-- <div class="n1 n2"> -->
+                    <!-- <span>联系电话：</span> -->
+                    <!-- <input type="text" id="phone"> -->
+                <!-- </div> -->
+                <!-- <div class="choose"> -->
+                    <!-- <div class="n3"> -->
+                        <!-- <a></a> -->
+                        <!-- <span>学习课程：</span> -->
+                        <!-- <a href="javascript:void(0)" class="chooseName">鉴定估价全科</a> -->
+                        <!-- <img class="blackS" src="image_peixun2/blackS.png" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <ul class="ban hide"> -->
+                        <!-- <li class="t">名品饰品鉴定班</li> -->
+                        <!-- <li class="t">皮具护理班</li> -->
+                        <!-- <li class="t">贵金属钻石鉴定班</li> -->
+                        <!-- <li>名包鉴定估价班</li> -->
+                        <!-- <li>名表鉴定估价班</li> -->
+                        <!-- <li class="active">鉴定估价全科班</li> -->
+                    <!-- </ul> -->
+                    <!-- <input type="hidden" id="enroll"> -->
+                <!-- </div> -->
+                <!-- <div class="confirm" id="submit">提交</div> -->
+            <!-- </div> -->
+            <div class="txtPic"><img src="image_peixun2/needTxt1.jpg" alt=""></div>
+            <div class="baoMing">
+            <a href="./weixin.html"><img src="image_peixun2/Ineed.png" alt=""></a>
+            </div>
+            <div class="txtPic"><img src="image_peixun2/needTxt2.jpg" alt=""></div>
+            <div class="baoMing">
+            <a href="./weixin.html"><img src="image_peixun2/Ineed.png" alt=""></a>
+            </div>
+            <div class="txtPic">
+            <img src="image_peixun2/needTxt3.png" alt="">
+            </div>
+            <div class="baoMing">
+            <a href="./weixin.html"><img src="image_peixun2/Ineed.png" alt=""></a>
+            </div>
+            <div class="txtPic">
+            <img src="image_peixun2/needTxt4.png" alt="">
+            </div>
+            <div class="baoMing">
+            <a href="./weixin.html"><img src="image_peixun2/Ineed.png" alt=""></a>
+            </div>
+        </div>
+        <div class="buttomFixed">
+            <a href="./tel.html" class="after tel"><img class="phone" src="image_peixun2/freePhone.gif" alt=""><span>免费通话</span></a>
+            <a href="./weixin.html"
+                class="after"><img class="onLine" src="image_peixun2/onLine.gif" alt=""><span>微信答疑</span></a>
+        </div>
+        <div class="headWx show2">
+            <a href="./weixin.html">
+                <img src="image_peixun2/headWx1-2.jpg" alt="">
+            </a>
+        </div>
+        <div class="headWxx show22">
+            <a href="./weixin.html">
+                <img src="image_peixun2/headWx2-2.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- <script> -->
+    <!-- $(document).ready(function () { -->
+        <!-- $("#submit").click(function () { -->
+            <!-- var trainName = $("#name").val(); -->
+            <!-- var contactType = $("#phone").val(); -->
+            <!-- var scheduledCourse = $("#enroll").val(); -->
+            <!-- if (trainName == null || trainName == '' || contactType == null || contactType == '' || scheduledCourse == null || scheduledCourse == '') { -->
+                <!-- alert("请完善申请信息"); -->
+            <!-- } else { -->
+                <!-- $.ajax({ -->
+                    <!-- type: "post", -->
+                    <!-- url: "/extensionTrain/save", -->
+                    <!-- data: { trainName: trainName, contactType: contactType, scheduledCourse: scheduledCourse }, -->
+                    <!-- dataType: "json", -->
+                    <!-- success: function (json) { -->
+                        <!-- if (json.success) { -->
+                            <!-- alert("申请成功"); -->
+                            <!-- window.location.reload(); -->
+                        <!-- } else { -->
+                            <!-- alert(json.errorMsg); -->
+                        <!-- } -->
+                    <!-- } -->
+                <!-- }); -->
+            <!-- } -->
+        <!-- }); -->
+    <!-- }); -->
+
+<!-- </script> -->
+
+<script src="js_peixun2/train.js"></script>
+<script>
+    $(".changeContent1 a").attr("href","./weixin.html");
+    $(".buttomFixed .tel").attr("href", "./tel.html");
+        $("#toming").click(function(){
+            var contactType = $(".addphone").val();
+            if(!(/^1(3|4|5|7|8)\d{9}$/.test(contactType))){
+                  alert("手机号格式不正确");
+            }else{
+                $.ajax({
+                    type: "post",
+                    url: "https://admin.jushewang.com/lead/add",
+                    data: { phone: contactType, description: '培训' },
+                    dataType: "json",
+                    success: function (json) {
+                        if (json.success) {
+                            alert("申请成功"); 
+                            window.location.reload();
+                        } else {
+                            alert(json.errorMsg);
+                        }
+                    }
+                });
+                alert("申请成功");
+                window.location.reload();
+            }
+               
+            }
+        )
+
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?1e6e97004d411d64c22983e1cbb9b67f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script language="javascript" src="http://pet.zoosnet.net/JS/LsJS.aspx?siteid=PET59984025&float=1&lng=cn"></script>
